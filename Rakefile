@@ -20,6 +20,6 @@ desc 'migrate changes to your database'
   end
 end
 
-  task :environment do
+task :environment do
   require_relative './config/environment'
 end
